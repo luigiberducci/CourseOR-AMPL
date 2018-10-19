@@ -1,0 +1,22 @@
+reset;
+model "my_models/industria_farina.mod";
+option solver "../cplex";
+
+solve;
+
+display P_1;
+display P_2;
+display I_1;
+display I_2;
+display S_1_1;
+display S_1_2;
+display S_2_1;
+display S_2_2;
+display D_1_1;
+display D_1_2;
+display D_1_3;
+display D_1_4;
+display D_2_1;
+display D_2_2;
+display D_2_3;
+display D_2_4;
