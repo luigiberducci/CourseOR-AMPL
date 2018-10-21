@@ -1,0 +1,18 @@
+reset;
+model "my_models/azienda_miscela_chimica.mod";
+option solver "../cplex";
+
+solve;
+
+display X_1;
+display X_2;
+display Y_1_1;
+display Y_1_2;
+display Y_1_3;
+display Y_2_1;
+display Y_2_2;
+display Y_2_3;
+display M_1;
+display M_2;
+display M_3;
+display M_p;
