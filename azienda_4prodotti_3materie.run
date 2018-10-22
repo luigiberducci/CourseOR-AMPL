@@ -1,0 +1,14 @@
+reset;
+model "my_models/azienda_4prodotti_3materie.mod";
+option solver "../cplex";
+
+solve;
+
+display X_1;
+display X_2;
+display X_3;
+display X_4;
+display Y_1;
+display Y_2;
+display Y_3;
+display T;
