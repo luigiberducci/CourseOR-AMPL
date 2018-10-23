@@ -16,3 +16,4 @@ display M_1;
 display M_2;
 display M_3;
 display M_p;
+display c_ingredients_prod_w1.body;

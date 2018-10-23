@@ -37,9 +37,9 @@ s.t. c_max_i3_w2: Y_2_3<=100;
 
 # Blend composition
 # The ingredients bought in the 1st week are used to produce the blend or stored
-s.t. c_ingredients_prod_w1: Y_1_1-M_1 + Y_1_2-M_2 + Y_1_2-M_2 = X_1+M_p;
+s.t. c_ingredients_prod_w1: Y_1_1-M_1 + Y_1_2-M_2 + Y_1_3-M_3 = X_1+M_p;
 # The ingredients bought in the 2nd week minus the one stored are used to produce the blend in the 2nd week
-s.t. c_ingredients_prod_w2: Y_2_1+M_1 + Y_2_2+M_2 + Y_2_2+M_3 = X_2;
+s.t. c_ingredients_prod_w2: Y_2_1+M_1 + Y_2_2+M_2 + Y_2_3+M_3 = X_2;
 # Other constraints on percentage
 s.t. c_blend_i1_w1: Y_1_1-M_1<=0.40*(X_1+M_p);
 s.t. c_blend_i2_w1: Y_1_2-M_2<=0.38*(X_1+M_p);
