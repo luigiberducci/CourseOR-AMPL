@@ -1,0 +1,11 @@
+reset;
+model "my_models/raffineria_petroli.mod";
+option solver "../cplex";
+
+solve;
+
+display X_1;
+display X_2;
+display X_3;
+display Y_1;
+display Y_2;
