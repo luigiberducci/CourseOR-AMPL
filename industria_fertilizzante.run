@@ -1,0 +1,13 @@
+reset;
+model "my_models/industria_fertilizzante.mod";
+option solver "../cplex";
+
+solve;
+
+display X;
+display Z;
+display Y_1;
+display Y_2;
+display Y_3;
+display Y_4;
+display not_neg_Z.body;
