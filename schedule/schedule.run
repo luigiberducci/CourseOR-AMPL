@@ -1,0 +1,14 @@
+# Import model
+model "schedule.mod";
+# Import data
+/* data "schedule.dat"; */
+data "test.dat";
+
+# Set solver
+option solver "../../cplex";
+
+# Run solver
+solve;
+
+# Print out assignment
+display X;

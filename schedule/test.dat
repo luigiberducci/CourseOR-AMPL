@@ -1,0 +1,1107 @@
+set WORKER := 
+Stud1
+Stud2
+Stud3
+Stud4
+Stud5
+Stud6
+Stud7
+Stud8
+Stud9
+Stud10
+Stud11
+Stud12
+Stud13
+Stud14
+Stud15
+;
+set TASK := 
+1_1
+1_2
+1_3
+2_1
+2_2
+2_3
+3_1
+3_2
+3_3
+4_1
+4_2
+4_3
+5_1
+5_2
+5_3
+6_1
+6_2
+6_3
+7_1
+7_2
+7_3
+8_1
+8_2
+8_3
+9_1
+9_2
+9_3
+10_1
+10_2
+10_3
+11_1
+11_2
+11_3
+;
+param cost := 
+Stud1 1_1 1
+Stud1 1_2 1
+Stud1 1_3 1
+Stud1 2_1 1
+Stud1 2_2 1
+Stud1 2_3 1
+Stud1 3_1 1
+Stud1 3_2 1
+Stud1 3_3 1
+Stud1 4_1 1
+Stud1 4_2 1
+Stud1 4_3 1
+Stud1 5_1 1
+Stud1 5_2 1
+Stud1 5_3 1
+Stud1 6_1 1
+Stud1 6_2 1
+Stud1 6_3 1
+Stud1 7_1 1
+Stud1 7_2 1
+Stud1 7_3 1
+Stud1 8_1 1
+Stud1 8_2 1
+Stud1 8_3 1
+Stud1 9_1 1
+Stud1 9_2 1
+Stud1 9_3 1
+Stud1 10_1 1
+Stud1 10_2 1
+Stud1 10_3 1
+Stud1 11_1 1
+Stud1 11_2 1
+Stud1 11_3 1
+Stud2 1_1 1
+Stud2 1_2 1
+Stud2 1_3 1
+Stud2 2_1 1
+Stud2 2_2 1
+Stud2 2_3 1
+Stud2 3_1 1
+Stud2 3_2 1
+Stud2 3_3 1
+Stud2 4_1 1
+Stud2 4_2 1
+Stud2 4_3 1
+Stud2 5_1 1
+Stud2 5_2 1
+Stud2 5_3 1
+Stud2 6_1 1
+Stud2 6_2 1
+Stud2 6_3 1
+Stud2 7_1 1
+Stud2 7_2 1
+Stud2 7_3 1
+Stud2 8_1 1
+Stud2 8_2 1
+Stud2 8_3 1
+Stud2 9_1 1
+Stud2 9_2 1
+Stud2 9_3 1
+Stud2 10_1 1
+Stud2 10_2 1
+Stud2 10_3 1
+Stud2 11_1 1
+Stud2 11_2 1
+Stud2 11_3 1
+Stud3 1_1 1
+Stud3 1_2 1
+Stud3 1_3 1
+Stud3 2_1 1
+Stud3 2_2 1
+Stud3 2_3 1
+Stud3 3_1 1
+Stud3 3_2 1
+Stud3 3_3 1
+Stud3 4_1 1
+Stud3 4_2 1
+Stud3 4_3 1
+Stud3 5_1 1
+Stud3 5_2 1
+Stud3 5_3 1
+Stud3 6_1 1
+Stud3 6_2 1
+Stud3 6_3 1
+Stud3 7_1 1
+Stud3 7_2 1
+Stud3 7_3 1
+Stud3 8_1 1
+Stud3 8_2 1
+Stud3 8_3 1
+Stud3 9_1 1
+Stud3 9_2 1
+Stud3 9_3 1
+Stud3 10_1 1
+Stud3 10_2 1
+Stud3 10_3 1
+Stud3 11_1 1
+Stud3 11_2 1
+Stud3 11_3 1
+Stud4 1_1 1
+Stud4 1_2 1
+Stud4 1_3 1
+Stud4 2_1 1
+Stud4 2_2 1
+Stud4 2_3 1
+Stud4 3_1 1
+Stud4 3_2 1
+Stud4 3_3 1
+Stud4 4_1 1
+Stud4 4_2 1
+Stud4 4_3 1
+Stud4 5_1 1
+Stud4 5_2 1
+Stud4 5_3 1
+Stud4 6_1 1
+Stud4 6_2 1
+Stud4 6_3 1
+Stud4 7_1 1
+Stud4 7_2 1
+Stud4 7_3 1
+Stud4 8_1 1
+Stud4 8_2 1
+Stud4 8_3 1
+Stud4 9_1 1
+Stud4 9_2 1
+Stud4 9_3 1
+Stud4 10_1 1
+Stud4 10_2 1
+Stud4 10_3 1
+Stud4 11_1 1
+Stud4 11_2 1
+Stud4 11_3 1
+Stud5 1_1 1
+Stud5 1_2 1
+Stud5 1_3 1
+Stud5 2_1 1
+Stud5 2_2 1
+Stud5 2_3 1
+Stud5 3_1 1
+Stud5 3_2 1
+Stud5 3_3 1
+Stud5 4_1 1
+Stud5 4_2 1
+Stud5 4_3 1
+Stud5 5_1 1
+Stud5 5_2 1
+Stud5 5_3 1
+Stud5 6_1 1
+Stud5 6_2 1
+Stud5 6_3 1
+Stud5 7_1 1
+Stud5 7_2 1
+Stud5 7_3 1
+Stud5 8_1 1
+Stud5 8_2 1
+Stud5 8_3 1
+Stud5 9_1 1
+Stud5 9_2 1
+Stud5 9_3 1
+Stud5 10_1 1
+Stud5 10_2 1
+Stud5 10_3 1
+Stud5 11_1 1
+Stud5 11_2 1
+Stud5 11_3 1
+Stud6 1_1 1
+Stud6 1_2 1
+Stud6 1_3 1
+Stud6 2_1 1
+Stud6 2_2 1
+Stud6 2_3 1
+Stud6 3_1 1
+Stud6 3_2 1
+Stud6 3_3 1
+Stud6 4_1 1
+Stud6 4_2 1
+Stud6 4_3 1
+Stud6 5_1 1
+Stud6 5_2 1
+Stud6 5_3 1
+Stud6 6_1 1
+Stud6 6_2 1
+Stud6 6_3 1
+Stud6 7_1 1
+Stud6 7_2 1
+Stud6 7_3 1
+Stud6 8_1 1
+Stud6 8_2 1
+Stud6 8_3 1
+Stud6 9_1 1
+Stud6 9_2 1
+Stud6 9_3 1
+Stud6 10_1 1
+Stud6 10_2 1
+Stud6 10_3 1
+Stud6 11_1 1
+Stud6 11_2 1
+Stud6 11_3 1
+Stud7 1_1 1
+Stud7 1_2 1
+Stud7 1_3 1
+Stud7 2_1 1
+Stud7 2_2 1
+Stud7 2_3 1
+Stud7 3_1 1
+Stud7 3_2 1
+Stud7 3_3 1
+Stud7 4_1 1
+Stud7 4_2 1
+Stud7 4_3 1
+Stud7 5_1 1
+Stud7 5_2 1
+Stud7 5_3 1
+Stud7 6_1 1
+Stud7 6_2 1
+Stud7 6_3 1
+Stud7 7_1 1
+Stud7 7_2 1
+Stud7 7_3 1
+Stud7 8_1 1
+Stud7 8_2 1
+Stud7 8_3 1
+Stud7 9_1 1
+Stud7 9_2 1
+Stud7 9_3 1
+Stud7 10_1 1
+Stud7 10_2 1
+Stud7 10_3 1
+Stud7 11_1 1
+Stud7 11_2 1
+Stud7 11_3 1
+Stud8 1_1 1
+Stud8 1_2 1
+Stud8 1_3 1
+Stud8 2_1 1
+Stud8 2_2 1
+Stud8 2_3 1
+Stud8 3_1 1
+Stud8 3_2 1
+Stud8 3_3 1
+Stud8 4_1 1
+Stud8 4_2 1
+Stud8 4_3 1
+Stud8 5_1 1
+Stud8 5_2 1
+Stud8 5_3 1
+Stud8 6_1 1
+Stud8 6_2 1
+Stud8 6_3 1
+Stud8 7_1 1
+Stud8 7_2 1
+Stud8 7_3 1
+Stud8 8_1 1
+Stud8 8_2 1
+Stud8 8_3 1
+Stud8 9_1 1
+Stud8 9_2 1
+Stud8 9_3 1
+Stud8 10_1 1
+Stud8 10_2 1
+Stud8 10_3 1
+Stud8 11_1 1
+Stud8 11_2 1
+Stud8 11_3 1
+Stud9 1_1 1
+Stud9 1_2 1
+Stud9 1_3 1
+Stud9 2_1 1
+Stud9 2_2 1
+Stud9 2_3 1
+Stud9 3_1 1
+Stud9 3_2 1
+Stud9 3_3 1
+Stud9 4_1 1
+Stud9 4_2 1
+Stud9 4_3 1
+Stud9 5_1 1
+Stud9 5_2 1
+Stud9 5_3 1
+Stud9 6_1 1
+Stud9 6_2 1
+Stud9 6_3 1
+Stud9 7_1 1
+Stud9 7_2 1
+Stud9 7_3 1
+Stud9 8_1 1
+Stud9 8_2 1
+Stud9 8_3 1
+Stud9 9_1 1
+Stud9 9_2 1
+Stud9 9_3 1
+Stud9 10_1 1
+Stud9 10_2 1
+Stud9 10_3 1
+Stud9 11_1 1
+Stud9 11_2 1
+Stud9 11_3 1
+Stud10 1_1 1
+Stud10 1_2 1
+Stud10 1_3 1
+Stud10 2_1 1
+Stud10 2_2 1
+Stud10 2_3 1
+Stud10 3_1 1
+Stud10 3_2 1
+Stud10 3_3 1
+Stud10 4_1 1
+Stud10 4_2 1
+Stud10 4_3 1
+Stud10 5_1 1
+Stud10 5_2 1
+Stud10 5_3 1
+Stud10 6_1 1
+Stud10 6_2 1
+Stud10 6_3 1
+Stud10 7_1 1
+Stud10 7_2 1
+Stud10 7_3 1
+Stud10 8_1 1
+Stud10 8_2 1
+Stud10 8_3 1
+Stud10 9_1 1
+Stud10 9_2 1
+Stud10 9_3 1
+Stud10 10_1 1
+Stud10 10_2 1
+Stud10 10_3 1
+Stud10 11_1 1
+Stud10 11_2 1
+Stud10 11_3 1
+Stud11 1_1 1
+Stud11 1_2 1
+Stud11 1_3 1
+Stud11 2_1 1
+Stud11 2_2 1
+Stud11 2_3 1
+Stud11 3_1 1
+Stud11 3_2 1
+Stud11 3_3 1
+Stud11 4_1 1
+Stud11 4_2 1
+Stud11 4_3 1
+Stud11 5_1 1
+Stud11 5_2 1
+Stud11 5_3 1
+Stud11 6_1 1
+Stud11 6_2 1
+Stud11 6_3 1
+Stud11 7_1 1
+Stud11 7_2 1
+Stud11 7_3 1
+Stud11 8_1 1
+Stud11 8_2 1
+Stud11 8_3 1
+Stud11 9_1 1
+Stud11 9_2 1
+Stud11 9_3 1
+Stud11 10_1 1
+Stud11 10_2 1
+Stud11 10_3 1
+Stud11 11_1 1
+Stud11 11_2 1
+Stud11 11_3 1
+Stud12 1_1 1
+Stud12 1_2 1
+Stud12 1_3 1
+Stud12 2_1 1
+Stud12 2_2 1
+Stud12 2_3 1
+Stud12 3_1 1
+Stud12 3_2 1
+Stud12 3_3 1
+Stud12 4_1 1
+Stud12 4_2 1
+Stud12 4_3 1
+Stud12 5_1 1
+Stud12 5_2 1
+Stud12 5_3 1
+Stud12 6_1 1
+Stud12 6_2 1
+Stud12 6_3 1
+Stud12 7_1 1
+Stud12 7_2 1
+Stud12 7_3 1
+Stud12 8_1 1
+Stud12 8_2 1
+Stud12 8_3 1
+Stud12 9_1 1
+Stud12 9_2 1
+Stud12 9_3 1
+Stud12 10_1 1
+Stud12 10_2 1
+Stud12 10_3 1
+Stud12 11_1 1
+Stud12 11_2 1
+Stud12 11_3 1
+Stud13 1_1 1
+Stud13 1_2 1
+Stud13 1_3 1
+Stud13 2_1 1
+Stud13 2_2 1
+Stud13 2_3 1
+Stud13 3_1 1
+Stud13 3_2 1
+Stud13 3_3 1
+Stud13 4_1 1
+Stud13 4_2 1
+Stud13 4_3 1
+Stud13 5_1 1
+Stud13 5_2 1
+Stud13 5_3 1
+Stud13 6_1 1
+Stud13 6_2 1
+Stud13 6_3 1
+Stud13 7_1 1
+Stud13 7_2 1
+Stud13 7_3 1
+Stud13 8_1 1
+Stud13 8_2 1
+Stud13 8_3 1
+Stud13 9_1 1
+Stud13 9_2 1
+Stud13 9_3 1
+Stud13 10_1 1
+Stud13 10_2 1
+Stud13 10_3 1
+Stud13 11_1 1
+Stud13 11_2 1
+Stud13 11_3 1
+Stud14 1_1 1
+Stud14 1_2 1
+Stud14 1_3 1
+Stud14 2_1 1
+Stud14 2_2 1
+Stud14 2_3 1
+Stud14 3_1 1
+Stud14 3_2 1
+Stud14 3_3 1
+Stud14 4_1 1
+Stud14 4_2 1
+Stud14 4_3 1
+Stud14 5_1 1
+Stud14 5_2 1
+Stud14 5_3 1
+Stud14 6_1 1
+Stud14 6_2 1
+Stud14 6_3 1
+Stud14 7_1 1
+Stud14 7_2 1
+Stud14 7_3 1
+Stud14 8_1 1
+Stud14 8_2 1
+Stud14 8_3 1
+Stud14 9_1 1
+Stud14 9_2 1
+Stud14 9_3 1
+Stud14 10_1 1
+Stud14 10_2 1
+Stud14 10_3 1
+Stud14 11_1 1
+Stud14 11_2 1
+Stud14 11_3 1
+Stud15 1_1 1
+Stud15 1_2 1
+Stud15 1_3 1
+Stud15 2_1 1
+Stud15 2_2 1
+Stud15 2_3 1
+Stud15 3_1 1
+Stud15 3_2 1
+Stud15 3_3 1
+Stud15 4_1 1
+Stud15 4_2 1
+Stud15 4_3 1
+Stud15 5_1 1
+Stud15 5_2 1
+Stud15 5_3 1
+Stud15 6_1 1
+Stud15 6_2 1
+Stud15 6_3 1
+Stud15 7_1 1
+Stud15 7_2 1
+Stud15 7_3 1
+Stud15 8_1 1
+Stud15 8_2 1
+Stud15 8_3 1
+Stud15 9_1 1
+Stud15 9_2 1
+Stud15 9_3 1
+Stud15 10_1 1
+Stud15 10_2 1
+Stud15 10_3 1
+Stud15 11_1 1
+Stud15 11_2 1
+Stud15 11_3 1
+;
+param min_num_wrk :=
+1_1 1
+1_2 1
+1_3 1
+2_1 1
+2_2 1
+2_3 1
+3_1 1
+3_2 1
+3_3 1
+4_1 1
+4_2 1
+4_3 1
+5_1 1
+5_2 1
+5_3 1
+6_1 1
+6_2 1
+6_3 1
+7_1 1
+7_2 1
+7_3 1
+8_1 1
+8_2 1
+8_3 1
+9_1 1
+9_2 1
+9_3 1
+10_1 1
+10_2 1
+10_3 1
+11_1 1
+11_2 1
+11_3 1
+;
+param min_num_tsk :=
+Stud1 2
+Stud2 2
+Stud3 2
+Stud4 2
+Stud5 2
+Stud6 2
+Stud7 2
+Stud8 2
+Stud9 2
+Stud10 2
+Stud11 2
+Stud12 2
+Stud13 2
+Stud14 2
+Stud15 2
+;
+param avail :=
+Stud1 1_1 1
+Stud1 1_2 1
+Stud1 1_3 1
+Stud1 2_1 1
+Stud1 2_2 1
+Stud1 2_3 1
+Stud1 3_1 1
+Stud1 3_2 1
+Stud1 3_3 1
+Stud1 4_1 1
+Stud1 4_2 1
+Stud1 4_3 1
+Stud1 5_1 1
+Stud1 5_2 1
+Stud1 5_3 1
+Stud1 6_1 1
+Stud1 6_2 1
+Stud1 6_3 1
+Stud1 7_1 1
+Stud1 7_2 1
+Stud1 7_3 1
+Stud1 8_1 1
+Stud1 8_2 1
+Stud1 8_3 1
+Stud1 9_1 1
+Stud1 9_2 1
+Stud1 9_3 1
+Stud1 10_1 1
+Stud1 10_2 1
+Stud1 10_3 1
+Stud1 11_1 1
+Stud1 11_2 1
+Stud1 11_3 1
+Stud2 1_1 1
+Stud2 1_2 1
+Stud2 1_3 1
+Stud2 2_1 1
+Stud2 2_2 1
+Stud2 2_3 1
+Stud2 3_1 1
+Stud2 3_2 1
+Stud2 3_3 1
+Stud2 4_1 1
+Stud2 4_2 1
+Stud2 4_3 1
+Stud2 5_1 1
+Stud2 5_2 1
+Stud2 5_3 1
+Stud2 6_1 1
+Stud2 6_2 1
+Stud2 6_3 1
+Stud2 7_1 1
+Stud2 7_2 1
+Stud2 7_3 1
+Stud2 8_1 1
+Stud2 8_2 1
+Stud2 8_3 1
+Stud2 9_1 1
+Stud2 9_2 1
+Stud2 9_3 1
+Stud2 10_1 1
+Stud2 10_2 1
+Stud2 10_3 1
+Stud2 11_1 1
+Stud2 11_2 1
+Stud2 11_3 1
+Stud3 1_1 1
+Stud3 1_2 1
+Stud3 1_3 1
+Stud3 2_1 1
+Stud3 2_2 1
+Stud3 2_3 1
+Stud3 3_1 1
+Stud3 3_2 1
+Stud3 3_3 1
+Stud3 4_1 1
+Stud3 4_2 1
+Stud3 4_3 1
+Stud3 5_1 1
+Stud3 5_2 1
+Stud3 5_3 1
+Stud3 6_1 1
+Stud3 6_2 1
+Stud3 6_3 1
+Stud3 7_1 1
+Stud3 7_2 1
+Stud3 7_3 1
+Stud3 8_1 1
+Stud3 8_2 1
+Stud3 8_3 1
+Stud3 9_1 1
+Stud3 9_2 1
+Stud3 9_3 1
+Stud3 10_1 1
+Stud3 10_2 1
+Stud3 10_3 1
+Stud3 11_1 1
+Stud3 11_2 1
+Stud3 11_3 1
+Stud4 1_1 1
+Stud4 1_2 1
+Stud4 1_3 1
+Stud4 2_1 1
+Stud4 2_2 1
+Stud4 2_3 1
+Stud4 3_1 1
+Stud4 3_2 1
+Stud4 3_3 1
+Stud4 4_1 1
+Stud4 4_2 1
+Stud4 4_3 1
+Stud4 5_1 1
+Stud4 5_2 1
+Stud4 5_3 1
+Stud4 6_1 1
+Stud4 6_2 1
+Stud4 6_3 1
+Stud4 7_1 1
+Stud4 7_2 1
+Stud4 7_3 1
+Stud4 8_1 1
+Stud4 8_2 1
+Stud4 8_3 1
+Stud4 9_1 1
+Stud4 9_2 1
+Stud4 9_3 1
+Stud4 10_1 1
+Stud4 10_2 1
+Stud4 10_3 1
+Stud4 11_1 1
+Stud4 11_2 1
+Stud4 11_3 1
+Stud5 1_1 1
+Stud5 1_2 1
+Stud5 1_3 1
+Stud5 2_1 1
+Stud5 2_2 1
+Stud5 2_3 1
+Stud5 3_1 1
+Stud5 3_2 1
+Stud5 3_3 1
+Stud5 4_1 1
+Stud5 4_2 1
+Stud5 4_3 1
+Stud5 5_1 1
+Stud5 5_2 1
+Stud5 5_3 1
+Stud5 6_1 1
+Stud5 6_2 1
+Stud5 6_3 1
+Stud5 7_1 1
+Stud5 7_2 1
+Stud5 7_3 1
+Stud5 8_1 1
+Stud5 8_2 1
+Stud5 8_3 1
+Stud5 9_1 1
+Stud5 9_2 1
+Stud5 9_3 1
+Stud5 10_1 1
+Stud5 10_2 1
+Stud5 10_3 1
+Stud5 11_1 1
+Stud5 11_2 1
+Stud5 11_3 1
+Stud6 1_1 1
+Stud6 1_2 1
+Stud6 1_3 1
+Stud6 2_1 1
+Stud6 2_2 1
+Stud6 2_3 1
+Stud6 3_1 1
+Stud6 3_2 1
+Stud6 3_3 1
+Stud6 4_1 1
+Stud6 4_2 1
+Stud6 4_3 1
+Stud6 5_1 1
+Stud6 5_2 1
+Stud6 5_3 1
+Stud6 6_1 1
+Stud6 6_2 1
+Stud6 6_3 1
+Stud6 7_1 1
+Stud6 7_2 1
+Stud6 7_3 1
+Stud6 8_1 1
+Stud6 8_2 1
+Stud6 8_3 1
+Stud6 9_1 1
+Stud6 9_2 1
+Stud6 9_3 1
+Stud6 10_1 1
+Stud6 10_2 1
+Stud6 10_3 1
+Stud6 11_1 1
+Stud6 11_2 1
+Stud6 11_3 1
+Stud7 1_1 1
+Stud7 1_2 1
+Stud7 1_3 1
+Stud7 2_1 1
+Stud7 2_2 1
+Stud7 2_3 1
+Stud7 3_1 1
+Stud7 3_2 1
+Stud7 3_3 1
+Stud7 4_1 1
+Stud7 4_2 1
+Stud7 4_3 1
+Stud7 5_1 1
+Stud7 5_2 1
+Stud7 5_3 1
+Stud7 6_1 1
+Stud7 6_2 1
+Stud7 6_3 1
+Stud7 7_1 1
+Stud7 7_2 1
+Stud7 7_3 1
+Stud7 8_1 1
+Stud7 8_2 1
+Stud7 8_3 1
+Stud7 9_1 1
+Stud7 9_2 1
+Stud7 9_3 1
+Stud7 10_1 1
+Stud7 10_2 1
+Stud7 10_3 1
+Stud7 11_1 1
+Stud7 11_2 1
+Stud7 11_3 1
+Stud8 1_1 1
+Stud8 1_2 1
+Stud8 1_3 1
+Stud8 2_1 1
+Stud8 2_2 1
+Stud8 2_3 1
+Stud8 3_1 1
+Stud8 3_2 1
+Stud8 3_3 1
+Stud8 4_1 1
+Stud8 4_2 1
+Stud8 4_3 1
+Stud8 5_1 1
+Stud8 5_2 1
+Stud8 5_3 1
+Stud8 6_1 1
+Stud8 6_2 1
+Stud8 6_3 1
+Stud8 7_1 1
+Stud8 7_2 1
+Stud8 7_3 1
+Stud8 8_1 1
+Stud8 8_2 1
+Stud8 8_3 1
+Stud8 9_1 1
+Stud8 9_2 1
+Stud8 9_3 1
+Stud8 10_1 1
+Stud8 10_2 1
+Stud8 10_3 1
+Stud8 11_1 1
+Stud8 11_2 1
+Stud8 11_3 1
+Stud9 1_1 1
+Stud9 1_2 1
+Stud9 1_3 1
+Stud9 2_1 1
+Stud9 2_2 1
+Stud9 2_3 1
+Stud9 3_1 1
+Stud9 3_2 1
+Stud9 3_3 1
+Stud9 4_1 1
+Stud9 4_2 1
+Stud9 4_3 1
+Stud9 5_1 1
+Stud9 5_2 1
+Stud9 5_3 1
+Stud9 6_1 1
+Stud9 6_2 1
+Stud9 6_3 1
+Stud9 7_1 1
+Stud9 7_2 1
+Stud9 7_3 1
+Stud9 8_1 1
+Stud9 8_2 1
+Stud9 8_3 1
+Stud9 9_1 1
+Stud9 9_2 1
+Stud9 9_3 1
+Stud9 10_1 1
+Stud9 10_2 1
+Stud9 10_3 1
+Stud9 11_1 1
+Stud9 11_2 1
+Stud9 11_3 1
+Stud10 1_1 1
+Stud10 1_2 1
+Stud10 1_3 1
+Stud10 2_1 1
+Stud10 2_2 1
+Stud10 2_3 1
+Stud10 3_1 1
+Stud10 3_2 1
+Stud10 3_3 1
+Stud10 4_1 1
+Stud10 4_2 1
+Stud10 4_3 1
+Stud10 5_1 1
+Stud10 5_2 1
+Stud10 5_3 1
+Stud10 6_1 1
+Stud10 6_2 1
+Stud10 6_3 1
+Stud10 7_1 1
+Stud10 7_2 1
+Stud10 7_3 1
+Stud10 8_1 1
+Stud10 8_2 1
+Stud10 8_3 1
+Stud10 9_1 1
+Stud10 9_2 1
+Stud10 9_3 1
+Stud10 10_1 1
+Stud10 10_2 1
+Stud10 10_3 1
+Stud10 11_1 1
+Stud10 11_2 1
+Stud10 11_3 1
+Stud11 1_1 1
+Stud11 1_2 1
+Stud11 1_3 1
+Stud11 2_1 1
+Stud11 2_2 1
+Stud11 2_3 1
+Stud11 3_1 1
+Stud11 3_2 1
+Stud11 3_3 1
+Stud11 4_1 1
+Stud11 4_2 1
+Stud11 4_3 1
+Stud11 5_1 1
+Stud11 5_2 1
+Stud11 5_3 1
+Stud11 6_1 1
+Stud11 6_2 1
+Stud11 6_3 1
+Stud11 7_1 1
+Stud11 7_2 1
+Stud11 7_3 1
+Stud11 8_1 1
+Stud11 8_2 1
+Stud11 8_3 1
+Stud11 9_1 1
+Stud11 9_2 1
+Stud11 9_3 1
+Stud11 10_1 1
+Stud11 10_2 1
+Stud11 10_3 1
+Stud11 11_1 1
+Stud11 11_2 1
+Stud11 11_3 1
+Stud12 1_1 1
+Stud12 1_2 1
+Stud12 1_3 1
+Stud12 2_1 1
+Stud12 2_2 1
+Stud12 2_3 1
+Stud12 3_1 1
+Stud12 3_2 1
+Stud12 3_3 1
+Stud12 4_1 1
+Stud12 4_2 1
+Stud12 4_3 1
+Stud12 5_1 1
+Stud12 5_2 1
+Stud12 5_3 1
+Stud12 6_1 1
+Stud12 6_2 1
+Stud12 6_3 1
+Stud12 7_1 1
+Stud12 7_2 1
+Stud12 7_3 1
+Stud12 8_1 1
+Stud12 8_2 1
+Stud12 8_3 1
+Stud12 9_1 1
+Stud12 9_2 1
+Stud12 9_3 1
+Stud12 10_1 1
+Stud12 10_2 1
+Stud12 10_3 1
+Stud12 11_1 1
+Stud12 11_2 1
+Stud12 11_3 1
+Stud13 1_1 1
+Stud13 1_2 1
+Stud13 1_3 1
+Stud13 2_1 1
+Stud13 2_2 1
+Stud13 2_3 1
+Stud13 3_1 1
+Stud13 3_2 1
+Stud13 3_3 1
+Stud13 4_1 1
+Stud13 4_2 1
+Stud13 4_3 1
+Stud13 5_1 1
+Stud13 5_2 1
+Stud13 5_3 1
+Stud13 6_1 1
+Stud13 6_2 1
+Stud13 6_3 1
+Stud13 7_1 1
+Stud13 7_2 1
+Stud13 7_3 1
+Stud13 8_1 1
+Stud13 8_2 1
+Stud13 8_3 1
+Stud13 9_1 1
+Stud13 9_2 1
+Stud13 9_3 1
+Stud13 10_1 1
+Stud13 10_2 1
+Stud13 10_3 1
+Stud13 11_1 1
+Stud13 11_2 1
+Stud13 11_3 1
+Stud14 1_1 1
+Stud14 1_2 1
+Stud14 1_3 1
+Stud14 2_1 1
+Stud14 2_2 1
+Stud14 2_3 1
+Stud14 3_1 1
+Stud14 3_2 1
+Stud14 3_3 1
+Stud14 4_1 1
+Stud14 4_2 1
+Stud14 4_3 1
+Stud14 5_1 1
+Stud14 5_2 1
+Stud14 5_3 1
+Stud14 6_1 1
+Stud14 6_2 1
+Stud14 6_3 1
+Stud14 7_1 1
+Stud14 7_2 1
+Stud14 7_3 1
+Stud14 8_1 1
+Stud14 8_2 1
+Stud14 8_3 1
+Stud14 9_1 1
+Stud14 9_2 1
+Stud14 9_3 1
+Stud14 10_1 1
+Stud14 10_2 1
+Stud14 10_3 1
+Stud14 11_1 1
+Stud14 11_2 1
+Stud14 11_3 1
+Stud15 1_1 1
+Stud15 1_2 1
+Stud15 1_3 1
+Stud15 2_1 1
+Stud15 2_2 1
+Stud15 2_3 1
+Stud15 3_1 1
+Stud15 3_2 1
+Stud15 3_3 1
+Stud15 4_1 1
+Stud15 4_2 1
+Stud15 4_3 1
+Stud15 5_1 1
+Stud15 5_2 1
+Stud15 5_3 1
+Stud15 6_1 1
+Stud15 6_2 1
+Stud15 6_3 1
+Stud15 7_1 1
+Stud15 7_2 1
+Stud15 7_3 1
+Stud15 8_1 1
+Stud15 8_2 1
+Stud15 8_3 1
+Stud15 9_1 1
+Stud15 9_2 1
+Stud15 9_3 1
+Stud15 10_1 1
+Stud15 10_2 1
+Stud15 10_3 1
+Stud15 11_1 1
+Stud15 11_2 1
+Stud15 11_3 1
+;
+#==========================================
+#             FINAL REPORT
+#==========================================
+# Num Workers:		15
+# Num Free Workers:	15
+# Num Shifts:		33
+# Num Blocked Shifts:	0
+# Num Free Shifts:	33
+#==========================================

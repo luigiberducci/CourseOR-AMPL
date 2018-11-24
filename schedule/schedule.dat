@@ -1,0 +1,135 @@
+set WORKER :=   Luigi
+                Carlo
+                Giorgio ;
+            
+set TASK   :=   1_1 
+                1_2 
+                1_3 
+                2_1 
+                2_2 
+                2_3
+                3_1
+                3_2
+                3_3
+                4_1
+                4_2
+                4_3
+                5_1
+                5_2
+                5_3 ;
+
+param cost :=
+                Luigi     1_1   1
+                Luigi     1_2   1
+                Luigi     1_3   1
+                Luigi     2_1   1
+                Luigi     2_2   1
+                Luigi     2_3   1
+                Luigi     3_1   1
+                Luigi     3_2   1
+                Luigi     3_3   1
+                Luigi     4_1   1
+                Luigi     4_2   1
+                Luigi     4_3   1
+                Luigi     5_1   1
+                Luigi     5_2   1
+                Luigi     5_3   1
+                Carlo     1_1   1
+                Carlo     1_2   1
+                Carlo     1_3   1
+                Carlo     2_1   1
+                Carlo     2_2   1
+                Carlo     2_3   1
+                Carlo     3_1   1
+                Carlo     3_2   1
+                Carlo     3_3   1
+                Carlo     4_1   1
+                Carlo     4_2   1
+                Carlo     4_3   1
+                Carlo     5_1   1
+                Carlo     5_2   1
+                Carlo     5_3   1
+                Giorgio   1_1   1
+                Giorgio   1_2   1
+                Giorgio   1_3   1
+                Giorgio   2_1   1
+                Giorgio   2_2   1
+                Giorgio   2_3   1
+                Giorgio   3_1   1
+                Giorgio   3_2   1
+                Giorgio   3_3   1
+                Giorgio   4_1   1
+                Giorgio   4_2   1
+                Giorgio   4_3   1
+                Giorgio   5_1   1
+                Giorgio   5_2   1
+                Giorgio   5_3   1 ;
+
+param min_num_wrk :=
+                1_1   1
+                1_2   1
+                1_3   1
+                2_1   1
+                2_2   1
+                2_3   1
+                3_1   1
+                3_2   1
+                3_3   1
+                4_1   1
+                4_2   1
+                4_3   1
+                5_1   1
+                5_2   1
+                5_3   0 ;
+
+param min_num_tsk :=
+                Luigi   5
+                Carlo   5
+                Giorgio 5 ;
+
+param avail :=
+                Luigi     1_1   1
+                Luigi     1_2   1
+                Luigi     1_3   1
+                Luigi     2_1   1
+                Luigi     2_2   1
+                Luigi     2_3   1
+                Luigi     3_1   1
+                Luigi     3_2   1
+                Luigi     3_3   1
+                Luigi     4_1   1
+                Luigi     4_2   1
+                Luigi     4_3   1
+                Luigi     5_1   1
+                Luigi     5_2   1
+                Luigi     5_3   1
+                Carlo     1_1   1
+                Carlo     1_2   1
+                Carlo     1_3   1
+                Carlo     2_1   1
+                Carlo     2_2   1
+                Carlo     2_3   1
+                Carlo     3_1   1
+                Carlo     3_2   1
+                Carlo     3_3   1
+                Carlo     4_1   1
+                Carlo     4_2   1
+                Carlo     4_3   1
+                Carlo     5_1   1
+                Carlo     5_2   1
+                Carlo     5_3   1
+                Giorgio   1_1   1
+                Giorgio   1_2   1
+                Giorgio   1_3   1
+                Giorgio   2_1   1
+                Giorgio   2_2   1
+                Giorgio   2_3   1
+                Giorgio   3_1   1
+                Giorgio   3_2   1
+                Giorgio   3_3   1
+                Giorgio   4_1   1
+                Giorgio   4_2   1
+                Giorgio   4_3   1
+                Giorgio   5_1   1
+                Giorgio   5_2   1
+                Giorgio   5_3   1 ;
