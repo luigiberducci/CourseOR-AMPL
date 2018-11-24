@@ -1,0 +1,15 @@
+reset;
+model "my_models/mobilificio_e_falegnameria.mod";
+option solver "../cplex";
+
+solve;
+
+display X_7_1;
+display X_7_2;
+display X_7_3;
+display X_7_4;
+display X_3_1;
+display X_3_2;
+display Y_1_5;
+display Y_2;
+display Y_4;
