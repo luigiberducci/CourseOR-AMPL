@@ -1,0 +1,13 @@
+reset;
+model "models/examJun2018_knapsack.mod";
+option solver "../../cplex";
+
+solve;
+
+display X[1];
+display X[2];
+display X[3];
+display X[4];
+display X[5];
+display X[6];
+display X[7];
