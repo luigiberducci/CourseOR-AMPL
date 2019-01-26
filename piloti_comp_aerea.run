@@ -1,0 +1,8 @@
+reset;
+model "my_models/piloti_comp_aerea.mod";
+option solver "../cplex";
+
+solve;
+
+display X;
+display E;
